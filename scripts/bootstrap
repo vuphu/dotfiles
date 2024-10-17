@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cp git/.gitconfig ~/.gitconfig
+
+echo "🚀 All installed!"
