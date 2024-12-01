@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
 cp git/.gitconfig ~/.gitconfig
+cp vim/.vimrc ~/.vimrc
 
 echo "🚀 All installed!"
