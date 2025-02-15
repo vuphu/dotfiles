@@ -2,3 +2,5 @@
     branch = false
 [user]
     useConfigOnly = true
+[core]
+    editor = vim
