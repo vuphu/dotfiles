@@ -3,4 +3,9 @@
 cp git/.gitconfig ~/.gitconfig
 cp vim/.vimrc ~/.vimrc
 
+if [[ "$(uname)" == "Darwin" ]]; then
+    echo "🍎 macOS detected, applying settings..."
+    sh macos/set-defaults.sh
+fi
+
 echo "🚀 All installed!"
